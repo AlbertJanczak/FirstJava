@@ -14,7 +14,6 @@ public class Second {
         return a + b;
 
     }
-
     public static int getNumber( String nazwa) {
         System.out.println("podaj liczbę " + nazwa+" :");
         Scanner scr = new Scanner(System.in);

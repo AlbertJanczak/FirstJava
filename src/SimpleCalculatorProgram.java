@@ -1,9 +1,9 @@
 public class SimpleCalculatorProgram {
 
     public static void main(String[] args) {
-        int a=UserInputHelper.getNumberFromUser("a");
-        int b=UserInputHelper.getNumberFromUser("b");
-
+        int a=UserInputHelper.getNumberFromUser("pierwsza");
+        int b=UserInputHelper.getNumberFromUser("druga");
+        System.out.println("dostepne dzialania: dodawanie, odejomowanie, mnozenie, dzielenie");
         String action=UserInputHelper.getActionFromUser();
 
 
