@@ -8,6 +8,7 @@ public class SimpleCalculatorProgram {
 
 
         switch(action){
+
             case "dodawanie":
                 System.out.println(Calculator.add(a,b));
                 break;

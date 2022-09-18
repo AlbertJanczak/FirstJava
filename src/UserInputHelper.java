@@ -6,7 +6,6 @@ public class UserInputHelper {
         Scanner scr = new Scanner(System.in);
         return scr.nextInt();
     }
-
     public static String getActionFromUser() {
         System.out.println("prosze podaj nazwe dzialania: ");
         Scanner scr = new Scanner(System.in);
